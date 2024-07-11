@@ -1,0 +1,11 @@
+[package]
+name = "tree_health"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio={version="1.38.0", features=["full"]}
+rayon="1.10.0"
+serde={version="1.0.204"}
+reqwest="0.12.5"
+
