@@ -6,8 +6,8 @@ use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 #[tokio::main]
 async fn main() {
     let coordinates: ((f64, f64), (f64, f64)) = (
-        (469246.9611715295,5074765.4764674315),
-        (469279.91663375776,5074792.545888164),
+        (459400.9734802246,5074518.269745505),
+        (459493.50354003906,5074762.689578394),
     );
     let offset = 10.0;
 
